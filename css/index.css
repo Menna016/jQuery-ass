@@ -1,0 +1,191 @@
+.open{
+    height: 100vh;
+    width: 270px;
+    z-index: 100;
+    left: -270px;
+    top: 0;
+    position: fixed; /* Make it fixed */
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+.openIcon{
+    right: -115px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 25px;
+}
+.close{
+    cursor: pointer;
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+    cursor: pointer; 
+    z-index: 101;
+}
+.HomeOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+#Home {
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+.homesec {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  
+}
+#home-content{
+    text-align: center;
+    color: white;  
+}
+#home-content h2{
+    font-size: 60px;
+}
+.close-icon:hover {
+    color: red; /* Change color to red on hover */
+    cursor: pointer; /* Change cursor to pointer for better UX */
+}
+
+.homesec .nav-item:hover{
+    color: deeppink;
+}
+.Duration > div {
+    display: none;
+    padding: 10px;
+    background-color: #ccc;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+.Duration h3{
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+#Details {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+}
+.details-about {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+}
+.time {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+.container {
+    padding: 100px 0px;
+}
+#contact .head h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#contact .head p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+.con-info h3 {
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+.con-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+.red {
+    color: #D62E33 !important;
+}
+.icons p {
+    margin-bottom: 35px;
+}
+.con-info .social-list i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    color: #777;
+}
+.con-info .social-list i:hover{
+    color:#fff;
+    background-color: #D62E33;
+    border:1px solid #D62E33;
+}
+#contact form textarea{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#contact form textarea{
+    height: 200px;
+    resize:vertical;
+}
+
+#contact form button{
+    background-color: #D62E33;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 0;
+    text-transform: uppercase
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+#charCount
+{
+    font-size: 20px;
+    color: #D62E33;
+}
+
